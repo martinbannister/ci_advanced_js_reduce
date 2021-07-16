@@ -66,3 +66,8 @@ let experienceByProfession = teamMembers.reduce((acc, curr) => {
 }, {});
 
 console.log(experienceByProfession);
+
+console.log();
+console.log(`If an error is logged to the console
+but no one sees it, is it still an error?`);
+setTimeout(() => console.clear(), 3000);
